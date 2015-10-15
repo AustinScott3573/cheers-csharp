@@ -18,11 +18,7 @@ namespace Cheers
             System.Console.WriteLine("Welcome, " + name);
 
             // Step 2: Cheer the user on.
-            // If name is "Bob", output should be:
-            // Give me a.. b
-            // Give me an.. o
-            // Give me a.. b
-            // BOB is.. GRAND!
+
             string lower = name.ToLower();
             string vowels = "aeioumnxsfhlr";
 
